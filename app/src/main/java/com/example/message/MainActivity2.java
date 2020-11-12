@@ -39,5 +39,5 @@ public class MainActivity2 extends AppCompatActivity {
                 intent.putExtra(KEY_RESPOSTA, value);
                 setResult(Activity.RESULT_OK, intent);
                 finish();
-        })
+        });
 }
